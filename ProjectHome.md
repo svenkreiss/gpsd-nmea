@@ -1,0 +1,3 @@
+[GPSD](http://gpsd.berlios.de/) parses NMEA 0183 messages and stores the information in easy to access data structures. And it does much much more. This project only contains the NMEA 0183 parser part of [GPSD](http://gpsd.berlios.de/).
+
+Originally, this was developed to connect a GPS receiver to a low power microcontroller. The code also cross-compiles for ARM controllers with arm-elf tool chain. A simple fake-example with makefile is provided.
